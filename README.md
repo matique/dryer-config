@@ -32,7 +32,7 @@ for the developer.
 Lastly, during the port of a Rails application to another version
 a pristine configuration is handy.
 The few remaining options in your "config" files needs
-fewer attention/work.
+less attention/work.
 
 Installation
 ------------
