@@ -1,13 +1,6 @@
-begin
-  require 'bundler'
-  require 'bundler/setup'
-rescue LoadError
-  puts 'You must `gem install bundler` and `bundle install` to run rake tasks'
-end
+# Add your own tasks in files placed in lib/tasks ending in .rake,
+# for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
 
-Bundler::GemHelper.install_tasks
+require_relative 'config/application'
 
-desc "Clean automatically generated files"
-task :clean do
-  FileUtils.rm_rf "pkg"
-end
+Rails.application.load_tasks

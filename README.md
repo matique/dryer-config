@@ -11,7 +11,11 @@ will contain just your particular requirements/options
 
 Version numbering is according to the Rails versions, e.g. use
 
-    gem 'dryer-config', '= 5.0.0'  # for a Rails 5.0.0 applications
+    gem 'dryer-config', '= 5.2.0'  # for a Rails 5.2.0 applications
+
+or
+
+    gem 'dryer-config', '~> 5.2'   # expected to serve Rails 5.2.*
 
 in your Gemfile.
 
@@ -38,7 +42,7 @@ Installation
 ------------
 To install add the following to your Gemfile (e.g.):
 
-    gem 'dryer-config', '~> 5.0'
+    gem 'dryer-config', '~> 5.2'
 
 and run bundle.
 
@@ -48,25 +52,25 @@ Configuration
 The following original config files have been dropped:
 
     ./config/application.rb
-    ./config/initializers/session_store.rb
+    ./config/credentials.yml.enc
     ./config/locales/*
+    ./config/master.key
     ./config/routes.rb
-    ./config/secrets.yml
 
 Create your owns.
 
-The following original config files are unused:
+The following file may require your attention:
 
     ./config/boot.rb
     ./config/cable.yml
     ./config/database.yml
-    ./config/environment.rb
     ./config/puma.rb
     ./config/spring.rb
+    ./config/storage.yml
 
 Create/copy your owns. They are still there for inspection.
 
-The following file may require your attention:
+The following file requires your attention:
 
     ./config/initializers/assets.rb
 
