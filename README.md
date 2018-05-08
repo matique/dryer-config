@@ -46,6 +46,13 @@ To install add the following to your Gemfile (e.g.):
 
 and run bundle.
 
+Rails 5.2.0
+-----------
+
+Create your own (there are still there for inspection):
+
+    ./config/storage.yml
+
 Configuration
 -------------
 
