@@ -11,7 +11,7 @@ will contain just your particular requirements/options
 
 Version numbering is according to the Rails versions, e.g. use
 
-    gem 'dryer-config', '= 5.2.0'  # for a Rails 5.2.0 applications
+    gem 'dryer-config', '= 6.0.0'  # for a Rails 6.0.0 applications
 
 or
 
@@ -42,12 +42,25 @@ Installation
 ------------
 To install add the following to your Gemfile (e.g.):
 
-    gem 'dryer-config', '~> 5.2'
+    gem 'dryer-config', '~> 6.0'
 
 and run bundle.
 
+Rails 6.0.0
+-----------
+
+See also "Configuration" below.
+
+Create your own (there are still there for inspection):
+
+    ./config/storage.yml
+
+The Webpacker files may require your attention:
+
 Rails 5.2.0
 -----------
+
+See also Configuration below.
 
 Create your own (there are still there for inspection):
 
@@ -66,7 +79,7 @@ The following original config files have been dropped:
 
 Create your owns.
 
-The following file may require your attention:
+The following files may require your attention:
 
     ./config/boot.rb
     ./config/cable.yml
