@@ -12,6 +12,9 @@ Gem::Specification.new do |s|
   s.email       = ['dittmar.krall@matique.de']
   s.homepage    = 'http://matique.de'
   s.license     = 'MIT'
+  s.platform    = Gem::Platform::RUBY
+
+  s.metadata['source_code_uri'] = 'https://github.com/matique/dryer-config'
 
   s.files         = `git ls-files`.split("\n")
 #  s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
