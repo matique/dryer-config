@@ -1,5 +1,6 @@
 DryerConfig
 ===========
+[![Gem Version](https://badge.fury.io/rb/dryer-config.png)](http://badge.fury.io/rb/dryer-config)
 
 Contains most of the files of a pristine "rails new" "config" directories.
 They will be available to your application by
