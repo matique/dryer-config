@@ -39,6 +39,7 @@ a pristine configuration is handy.
 The few remaining options in your "config" files needs
 less attention/work.
 
+
 Installation
 ------------
 To install add the following to your Gemfile (e.g.):
