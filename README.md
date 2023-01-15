@@ -1,5 +1,5 @@
-DryerConfig
-===========
+# DryerConfig
+
 [![Gem Version](https://badge.fury.io/rb/dryer-config.png)](http://badge.fury.io/rb/dryer-config)
 
 Contains most of the files of a pristine "rails new" "config" directories.
@@ -24,8 +24,7 @@ It is expected that the version 5.0.0 is fine for the
 complete Rails 5 serie.
 If not, a new version of this gem will be released (hopefully).
 
-Why
----
+## Why
 
 Usually I run several applications based on the same Rails on one server.
 There is no need to waste disk space (mostly irrelevant today,
@@ -39,17 +38,16 @@ a pristine configuration is handy.
 The few remaining options in your "config" files needs
 less attention/work.
 
+## Installation
 
-Installation
-------------
-To install add the following to your Gemfile (e.g.):
+As usual:
+```ruby
+# Gemfile
+gem "dryer-config", "~> 7.0"
+```
+and run "bundle install".
 
-    gem 'dryer-config', '~> 6.0'
-
-and run bundle.
-
-Rails 6.0.0
------------
+## Rails 6.0.0
 
 See also "Configuration" below.
 
@@ -98,7 +96,13 @@ The following file requires your attention:
 
 Create your own. It will run after the one from the gem.
 
-See also
---------
+## See also
 
     http://railsdiff.org/
+
+## Miscellaneous
+
+Copyright (c) 2016-2022 Dittmar Krall (www.matiq.com),
+released under the MIT license:
+
+* https://opensource.org/licenses/MIT
