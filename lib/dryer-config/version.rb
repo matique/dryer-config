@@ -1,5 +1,5 @@
 module DryerConfig
-  VERSION = '7.0.99'  # 2023-10-15
+  VERSION = '7.1.0'  # 2023-10-15
 # VERSION = '7.0.0'  # 2021-12-18
 # VERSION = '6.1.4'  # 2021-06-27
 # VERSION = '6.0.3'  # 2020-05-08
