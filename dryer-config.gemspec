@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = "Outsource several config files to a gem."
   s.authors     = ['Dittmar Krall']
   s.email       = ['dittmar.krall@matiq.com']
-  s.homepage    = 'http://matiq.com'
+  s.homepage    = 'https://github.com/matique/dryer-config'
   s.license     = 'MIT'
   s.platform    = Gem::Platform::RUBY
 
