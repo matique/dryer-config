@@ -14,13 +14,8 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
   s.platform    = Gem::Platform::RUBY
 
-  s.metadata['source_code_uri'] = 'https://github.com/matique/dryer-config'
-
   s.files         = `git ls-files`.split("\n")
   s.require_paths = ["lib"]
 
   s.add_development_dependency 'bundler'
-  s.add_development_dependency 'rake'
-
-  s.add_development_dependency 'minitest'
 end
