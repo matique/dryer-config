@@ -47,7 +47,7 @@ gem "dryer-config", "~> 7.2"
 ```
 and run `bundle install`.
 
-## Rails 7.2.0
+## Rails 7.2.1, 7.2.0
 
 See also "Configuration" below.
 
