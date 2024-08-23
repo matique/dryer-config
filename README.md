@@ -12,11 +12,11 @@ will contain just your particular requirements/options
 
 Version numbering is according to the Rails versions, e.g. use
 
-    gem 'dryer-config', '= 6.0.0'  # for a Rails 6.0.0 applications
+    gem 'dryer-config', '= 7.0.0'  # for a Rails 7.0.0 applications
 
 or
 
-    gem 'dryer-config', '~> 5.2'   # expected to serve Rails 5.2.*
+    gem 'dryer-config', '~> 7.2'   # expected to serve Rails 7.2.*
 
 in your `Gemfile`.
 
@@ -43,9 +43,16 @@ less attention/work.
 As usual:
 ```ruby
 # Gemfile
-gem "dryer-config", "~> 7.1"
+gem "dryer-config", "~> 7.2"
 ```
 and run `bundle install`.
+
+## Rails 7.2.0
+
+See also "Configuration" below.
+
+The following config file is obsolete:
+    ./config/spring.rb
 
 ## Rails 7.1.0, 7.0.0, 6.0.0, 5.2.0
 
@@ -76,7 +83,6 @@ The following files may require your attention:
     ./config/cable.yml
     ./config/database.yml
     ./config/puma.rb
-    ./config/spring.rb
     ./config/storage.yml
 
 Create/copy your owns. They are still there for inspection.
@@ -94,6 +100,4 @@ Create your own. It will run after the one from the gem.
 ## Miscellaneous
 
 Copyright (c) 2016-2024 Dittmar Krall (www.matiq.com),
-released under the MIT license:
-
-* https://opensource.org/licenses/MIT
+released under the [MIT license](https://opensource.org/licenses/MIT).
