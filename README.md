@@ -93,7 +93,7 @@ Create your own. It will run after the one from the gem.
 
 ## Miscellaneous
 
-Copyright (c) 2016-2023 Dittmar Krall (www.matiq.com),
+Copyright (c) 2016-2024 Dittmar Krall (www.matiq.com),
 released under the MIT license:
 
 * https://opensource.org/licenses/MIT
