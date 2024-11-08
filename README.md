@@ -14,16 +14,16 @@ will contain just your particular requirements/options
 
 Version numbering is according to the Rails versions, e.g. use
 
-    gem 'dryer-config', '= 7.0.0'  # for a Rails 7.0.0 applications
+    gem 'dryer-config', '= 8.0.0'  # for a Rails 8.0.0 applications
 
 or
 
-    gem 'dryer-config', '~> 7.2'   # expected to serve Rails 7.2.*
+    gem 'dryer-config', '~> 8.0'   # expected to serve Rails 8.0.*
 
 in your `Gemfile`.
 
-It is expected that the version 7.0.0 is fine for the
-complete Rails 7 serie.
+It is expected that the version 8.0.0 is fine for the
+complete Rails 8 serie.
 If not, a new version of this gem will be released (hopefully).
 
 ## Why
@@ -45,9 +45,16 @@ less attention/work.
 As usual:
 ```ruby
 # Gemfile
-gem "dryer-config", "~> 7.2"
+gem "dryer-config", "~> 8.0"
 ```
 and run `bundle install`.
+
+## Rails 8.0.0
+
+See also "Configuration" below.
+
+The following config file is obsolete:
+    ./config/initializers/permissions_policy.rb
 
 ## Rails 7.2.1, 7.2.0
 
