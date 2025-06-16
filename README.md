@@ -1,8 +1,8 @@
 # DryerConfig
 
-[![Gem Version](https://badge.fury.io/rb/dryer-config.png)](http://badge.fury.io/rb/dryer-config)
-[![GEM Downloads](https://img.shields.io/gem/dt/dryer-config?color=168AFE&logo=ruby&logoColor=FE1616)](https://rubygems.org/gems/dryer-config)
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](http://choosealicense.com/licenses/mit/)
+[![Gem Version](https://img.shields.io/gem/v/dryer-config?color=168AFE&logo=rubygems&logoColor=FE1616)](https://rubygems.org/gems/dryer-config)
+[![Downloads](https://img.shields.io/gem/dt/dryer-config?color=168AFE&logo=rubygems&logoColor=FE1616)](https://rubygems.org/gems/dryer-config)
+[![MIT License](https://img.shields.io/badge/license-MIT-168AFE.svg)](http://choosealicense.com/licenses/mit/)
 
 Contains most of the files of a pristine `rails new` `config` directories.
 They will be available to your application by
