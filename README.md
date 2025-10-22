@@ -49,6 +49,16 @@ gem "dryer-config", "~> 8.0"
 ```
 and run `bundle install`.
 
+## Rails 8.1.0
+
+See also "Configuration" below.
+
+Added files:
+    ./config/bundler-audit.yml
+    ./config/cache.yml
+    ./config/ci.rb
+    ./config/deploy.yml
+
 ## Rails 8.0.0
 
 See also "Configuration" below.
@@ -108,5 +118,5 @@ Create your own. It will run after the one from the gem.
 
 ## Miscellaneous
 
-Copyright (c) 2016-2024 Dittmar Krall (www.matiq.com),
+Copyright (c) 2016-2025 Dittmar Krall (www.matiq.com),
 released under the [MIT license](https://opensource.org/licenses/MIT).
