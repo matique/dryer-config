@@ -14,8 +14,7 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
   s.platform    = Gem::Platform::RUBY
 
-  # s.files         = `git ls-files`.split("\n")
-  s.files = Dir["config/**/*"]
+  s.files         = `git ls-files`.split("\n")
   s.require_paths = ["lib"]
 
   s.add_development_dependency 'bundler'
